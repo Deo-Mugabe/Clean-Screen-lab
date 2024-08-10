@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#controls {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#controls div {
+    margin-bottom: 10px;
+}
+
+#controls label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#controls input {
+    width: 100px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+#circle-container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    border: 1px solid #ccc;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #3498db;
+}
